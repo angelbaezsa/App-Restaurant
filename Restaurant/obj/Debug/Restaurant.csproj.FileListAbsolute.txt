@@ -8,3 +8,4 @@ C:\Users\Angel Baez\Desktop\ITLA\cursos aprendizaje\C#\Restaurant\Restaurant\obj
 C:\Users\Angel Baez\Desktop\ITLA\cursos aprendizaje\C#\Restaurant\Restaurant\obj\Debug\Restaurant.csproj.CoreCompileInputs.cache
 C:\Users\Angel Baez\Desktop\ITLA\cursos aprendizaje\C#\Restaurant\Restaurant\obj\Debug\Restaurant.exe
 C:\Users\Angel Baez\Desktop\ITLA\cursos aprendizaje\C#\Restaurant\Restaurant\obj\Debug\Restaurant.pdb
+C:\Users\Angel Baez\Desktop\ITLA\cursos aprendizaje\C#\Restaurant\Restaurant\obj\Debug\Restaurant.frmOrdenes.resources

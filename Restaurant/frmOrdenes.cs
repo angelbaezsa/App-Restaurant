@@ -16,5 +16,15 @@ namespace Restaurant
         {
             InitializeComponent();
         }
+
+        private void tableLayoutPanel1_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void frmOrdenes_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
