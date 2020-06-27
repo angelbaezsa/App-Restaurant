@@ -98,6 +98,7 @@
             this.btnMesa2.TabIndex = 1;
             this.btnMesa2.Text = "Mesa 2";
             this.btnMesa2.UseVisualStyleBackColor = true;
+            this.btnMesa2.Click += new System.EventHandler(this.btnMesa2_Click);
             // 
             // btnMesa1
             // 

@@ -10,7 +10,8 @@ using System.Windows.Forms;
 
 namespace Restaurant
 {
- 
+   
+
     public partial class frmOrdenes : Form
     {
         public frmOrdenes()
@@ -34,32 +35,7 @@ namespace Restaurant
             
         }
 
-        private void btnUno_Click(object sender, EventArgs e)
-        {
-            Mesas mesa = new Mesas();
-            mesa.numPersonas = 1;
-
-        }
-
-        private void btnDos_Click(object sender, EventArgs e)
-        {
-            Mesas mesa = new Mesas();
-            mesa.numPersonas = 2;
-        }
-
-        private void btnTres_Click(object sender, EventArgs e)
-        {
-            Mesas mesa = new Mesas();
-            mesa.numPersonas = 3;
-        }
-
-        private void btn4_Click(object sender, EventArgs e)
-        {
-
-
-            Mesas mesa = new Mesas();
-            mesa.numPersonas = 4;
-        }
+        
 
        
     }

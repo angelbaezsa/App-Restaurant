@@ -58,7 +58,7 @@
     <Compile Include="frmRestaurant.Designer.cs">
       <DependentUpon>frmRestaurant.cs</DependentUpon>
     </Compile>
-    <Compile Include="Mesas.cs" />
+    <Compile Include="LogicaProgramacion\Orden.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="frmOrdenes.resx">

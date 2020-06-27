@@ -10,48 +10,74 @@ using System.Windows.Forms;
 
 namespace Restaurant
 {
+   
     public partial class frmRestaurant : Form
     {
-
-        frmOrdenes mesas = new frmOrdenes();
         
+        
+                
         public frmRestaurant()
         {
             InitializeComponent();
         }
 
-        
 
+
+        private void InfoMesa(string Estado)
+        {
+            frmOrdenes mesasForm = new frmOrdenes();
+            
+            mesasForm.Show();
+        }
+
+        private void MesaUno()
+        {
+            InfoMesa("Disponible");
+            btnMesa1.Enabled = false;
+        }
+        private void MesaDos()
+        {
+            InfoMesa("Disponible");
+            btnMesa2.Enabled = false;
+        }
+
+        private void MesaTres()
+        {
+            InfoMesa("Disponible");
+            btnMesa3.Enabled = false;
+        }
+
+        private void MesaCuatro()
+        {
+            InfoMesa("Disponible");
+            btnMesa4.Enabled = false;
+        }
 
         private void btnMesa1_Click(object sender, EventArgs e)
-        {   
-
-            btnMesa1.Enabled = false;
-            this.Hide();
-            mesas.Show();
-
+        {
            
-
+           
+                    
         }
         private void btnMesa2_Click(object sender, EventArgs e)
         {
-
-            btnMesa2.Enabled = false;
-            
+            MesaDos();
         }
         private void btnMesa3_Click(object sender, EventArgs e)
         {
 
+            InfoMesa("disponible");
             btnMesa3.Enabled = false;
-           
+
         }
         private void btnMesa4_Click(object sender, EventArgs e)
         {
-
+            InfoMesa("disponible");
             btnMesa4.Enabled = false;
-            
+
         }
 
+       
         
     }
 }

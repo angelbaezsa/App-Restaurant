@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace BusinessLogic.Properties
+namespace WindowsFormsApp1.Properties
 {
 
 
