@@ -28,35 +28,34 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmOrdenes));
             this.tlpMesa = new System.Windows.Forms.TableLayoutPanel();
             this.lblNoClientes = new System.Windows.Forms.Label();
-            this.button1 = new System.Windows.Forms.Button();
-            this.btnDos = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
-            this.button4 = new System.Windows.Forms.Button();
+            this.lblNumPersonas = new System.Windows.Forms.Label();
+            this.comboBox1 = new System.Windows.Forms.ComboBox();
+            this.label1 = new System.Windows.Forms.Label();
+            this.txtEstadoMesa = new System.Windows.Forms.TextBox();
             this.tlpMesa.SuspendLayout();
             this.SuspendLayout();
             // 
             // tlpMesa
             // 
-            this.tlpMesa.ColumnCount = 3;
-            this.tlpMesa.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 49.35897F));
-            this.tlpMesa.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50.64103F));
-            this.tlpMesa.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 331F));
-            this.tlpMesa.Controls.Add(this.button4, 1, 2);
-            this.tlpMesa.Controls.Add(this.button3, 0, 2);
-            this.tlpMesa.Controls.Add(this.btnDos, 1, 1);
+            this.tlpMesa.ColumnCount = 2;
+            this.tlpMesa.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 52.73973F));
+            this.tlpMesa.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 47.26027F));
             this.tlpMesa.Controls.Add(this.lblNoClientes, 0, 0);
-            this.tlpMesa.Controls.Add(this.button1, 0, 1);
+            this.tlpMesa.Controls.Add(this.lblNumPersonas, 0, 1);
+            this.tlpMesa.Controls.Add(this.comboBox1, 1, 1);
+            this.tlpMesa.Controls.Add(this.label1, 0, 2);
+            this.tlpMesa.Controls.Add(this.txtEstadoMesa, 1, 2);
             this.tlpMesa.Dock = System.Windows.Forms.DockStyle.Fill;
             this.tlpMesa.Location = new System.Drawing.Point(0, 0);
             this.tlpMesa.Name = "tlpMesa";
-            this.tlpMesa.RowCount = 3;
-            this.tlpMesa.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 13.11111F));
-            this.tlpMesa.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 42.44444F));
-            this.tlpMesa.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 44.66667F));
-            this.tlpMesa.Size = new System.Drawing.Size(800, 450);
+            this.tlpMesa.RowCount = 4;
+            this.tlpMesa.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 13.90887F));
+            this.tlpMesa.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 10.31175F));
+            this.tlpMesa.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 8.393286F));
+            this.tlpMesa.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 66.90647F));
+            this.tlpMesa.Size = new System.Drawing.Size(438, 417);
             this.tlpMesa.TabIndex = 0;
             // 
             // lblNoClientes
@@ -67,62 +66,59 @@
             this.lblNoClientes.Font = new System.Drawing.Font("Microsoft YaHei UI", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblNoClientes.Location = new System.Drawing.Point(3, 0);
             this.lblNoClientes.Name = "lblNoClientes";
-            this.lblNoClientes.Size = new System.Drawing.Size(462, 58);
+            this.lblNoClientes.Size = new System.Drawing.Size(432, 58);
             this.lblNoClientes.TabIndex = 0;
-            this.lblNoClientes.Text = "Numero de personas en la mesa";
+            this.lblNoClientes.Text = "Informacion de la Mesa";
             // 
-            // button1
+            // lblNumPersonas
             // 
-            this.button1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button1.BackgroundImage")));
-            this.button1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.button1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.button1.Location = new System.Drawing.Point(3, 61);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(225, 184);
-            this.button1.TabIndex = 1;
-            this.button1.UseVisualStyleBackColor = true;
+            this.lblNumPersonas.AutoSize = true;
+            this.lblNumPersonas.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.lblNumPersonas.Font = new System.Drawing.Font("MS Reference Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblNumPersonas.Location = new System.Drawing.Point(3, 58);
+            this.lblNumPersonas.Name = "lblNumPersonas";
+            this.lblNumPersonas.Size = new System.Drawing.Size(225, 43);
+            this.lblNumPersonas.TabIndex = 1;
+            this.lblNumPersonas.Text = "Numero de personas";
             // 
-            // btnDos
+            // comboBox1
             // 
-            this.btnDos.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnDos.BackgroundImage")));
-            this.btnDos.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.btnDos.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.btnDos.Location = new System.Drawing.Point(234, 61);
-            this.btnDos.Name = "btnDos";
-            this.btnDos.Size = new System.Drawing.Size(231, 184);
-            this.btnDos.TabIndex = 2;
-            this.btnDos.UseVisualStyleBackColor = true;
+            this.comboBox1.FormattingEnabled = true;
+            this.comboBox1.Location = new System.Drawing.Point(234, 61);
+            this.comboBox1.Name = "comboBox1";
+            this.comboBox1.Size = new System.Drawing.Size(178, 21);
+            this.comboBox1.TabIndex = 2;
             // 
-            // button3
+            // label1
             // 
-            this.button3.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button3.BackgroundImage")));
-            this.button3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.button3.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.button3.Location = new System.Drawing.Point(3, 251);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(225, 196);
-            this.button3.TabIndex = 3;
-            this.button3.UseVisualStyleBackColor = true;
+            this.label1.AutoSize = true;
+            this.label1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.label1.Font = new System.Drawing.Font("MS Reference Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(3, 101);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(225, 35);
+            this.label1.TabIndex = 3;
+            this.label1.Text = "Estado Mesa";
             // 
-            // button4
+            // txtEstadoMesa
             // 
-            this.button4.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button4.BackgroundImage")));
-            this.button4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.button4.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.button4.Location = new System.Drawing.Point(234, 251);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(231, 196);
-            this.button4.TabIndex = 4;
-            this.button4.UseVisualStyleBackColor = true;
+            this.txtEstadoMesa.Location = new System.Drawing.Point(234, 104);
+            this.txtEstadoMesa.Name = "txtEstadoMesa";
+            this.txtEstadoMesa.ReadOnly = true;
+            this.txtEstadoMesa.Size = new System.Drawing.Size(178, 20);
+            this.txtEstadoMesa.TabIndex = 4;
             // 
             // frmOrdenes
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(438, 417);
             this.Controls.Add(this.tlpMesa);
+            this.MaximizeBox = false;
             this.Name = "frmOrdenes";
+            this.Opacity = 0.5D;
             this.Text = "Mesa";
+            this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.frmOrdenes_FormClosed);
             this.Load += new System.EventHandler(this.frmOrdenes_Load);
             this.tlpMesa.ResumeLayout(false);
             this.tlpMesa.PerformLayout();
@@ -133,10 +129,10 @@
         #endregion
 
         private System.Windows.Forms.TableLayoutPanel tlpMesa;
-        private System.Windows.Forms.Button button4;
-        private System.Windows.Forms.Button button3;
-        private System.Windows.Forms.Button btnDos;
         private System.Windows.Forms.Label lblNoClientes;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Label lblNumPersonas;
+        private System.Windows.Forms.ComboBox comboBox1;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.TextBox txtEstadoMesa;
     }
 }
