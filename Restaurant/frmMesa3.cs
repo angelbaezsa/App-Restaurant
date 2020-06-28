@@ -10,29 +10,11 @@ using System.Windows.Forms;
 
 namespace Restaurant
 {
-   
-
-    public partial class frmMesa1 : Form
+    public partial class frmMesa3 : Form
     {
-        public frmMesa1()
+        public frmMesa3()
         {
             InitializeComponent();
         }
-
-        private void tableLayoutPanel1_Paint(object sender, PaintEventArgs e)
-        {
-
-        }
-
-        private void frmOrdenes_Load(object sender, EventArgs e)
-        {
-
-        }
-
-        
-
-        
-
-       
     }
 }

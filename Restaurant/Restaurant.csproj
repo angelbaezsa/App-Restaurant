@@ -46,11 +46,29 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="frmOrdenes.cs">
+    <Compile Include="frmMesa2 .cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="frmOrdenes.Designer.cs">
-      <DependentUpon>frmOrdenes.cs</DependentUpon>
+    <Compile Include="frmMesa2 .Designer.cs">
+      <DependentUpon>frmMesa2 .cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmMesa1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmMesa1.Designer.cs">
+      <DependentUpon>frmMesa1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmMesa3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmMesa3.Designer.cs">
+      <DependentUpon>frmMesa3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmMesa4.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmMesa4.Designer.cs">
+      <DependentUpon>frmMesa4.cs</DependentUpon>
     </Compile>
     <Compile Include="frmRestaurant.cs">
       <SubType>Form</SubType>
@@ -61,8 +79,17 @@
     <Compile Include="LogicaProgramacion\Orden.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="frmOrdenes.resx">
-      <DependentUpon>frmOrdenes.cs</DependentUpon>
+    <EmbeddedResource Include="frmMesa2 .resx">
+      <DependentUpon>frmMesa2 .cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmMesa1.resx">
+      <DependentUpon>frmMesa1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmMesa3.resx">
+      <DependentUpon>frmMesa3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmMesa4.resx">
+      <DependentUpon>frmMesa4.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frmRestaurant.resx">
       <DependentUpon>frmRestaurant.cs</DependentUpon>

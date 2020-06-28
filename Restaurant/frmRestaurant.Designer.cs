@@ -72,6 +72,7 @@
             this.btnMesa4.TabIndex = 3;
             this.btnMesa4.Text = "Mesa 4";
             this.btnMesa4.UseVisualStyleBackColor = true;
+            this.btnMesa4.Click += new System.EventHandler(this.btnMesa4_Click_1);
             // 
             // btnMesa3
             // 
@@ -85,6 +86,7 @@
             this.btnMesa3.TabIndex = 2;
             this.btnMesa3.Text = "Mesa 3";
             this.btnMesa3.UseVisualStyleBackColor = true;
+            this.btnMesa3.Click += new System.EventHandler(this.btnMesa3_Click_1);
             // 
             // btnMesa2
             // 

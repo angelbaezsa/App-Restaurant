@@ -1,6 +1,6 @@
 ﻿namespace Restaurant
 {
-    partial class frmOrdenes
+    partial class frmMesa1
     {
         /// <summary>
         /// Required designer variable.
@@ -28,53 +28,53 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.tlpMesa = new System.Windows.Forms.TableLayoutPanel();
-            this.lblNoClientes = new System.Windows.Forms.Label();
+            this.tlpMesa2 = new System.Windows.Forms.TableLayoutPanel();
+            this.lblMesa2 = new System.Windows.Forms.Label();
             this.lblNumPersonas = new System.Windows.Forms.Label();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
+            this.cbxNumeroPersonasMesa1 = new System.Windows.Forms.ComboBox();
             this.label1 = new System.Windows.Forms.Label();
-            this.txtEstadoMesa = new System.Windows.Forms.TextBox();
-            this.btnOrdenar = new System.Windows.Forms.Button();
-            this.listBox1 = new System.Windows.Forms.ListBox();
-            this.tlpMesa.SuspendLayout();
+            this.txtEstadoMesa1 = new System.Windows.Forms.TextBox();
+            this.btnOrdenarMesa1 = new System.Windows.Forms.Button();
+            this.lbxPedidosMesa1 = new System.Windows.Forms.ListBox();
+            this.tlpMesa2.SuspendLayout();
             this.SuspendLayout();
             // 
-            // tlpMesa
+            // tlpMesa2
             // 
-            this.tlpMesa.ColumnCount = 2;
-            this.tlpMesa.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 52.73973F));
-            this.tlpMesa.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 47.26027F));
-            this.tlpMesa.Controls.Add(this.lblNoClientes, 0, 0);
-            this.tlpMesa.Controls.Add(this.lblNumPersonas, 0, 1);
-            this.tlpMesa.Controls.Add(this.comboBox1, 1, 1);
-            this.tlpMesa.Controls.Add(this.label1, 0, 2);
-            this.tlpMesa.Controls.Add(this.txtEstadoMesa, 1, 2);
-            this.tlpMesa.Controls.Add(this.btnOrdenar, 1, 4);
-            this.tlpMesa.Controls.Add(this.listBox1, 0, 3);
-            this.tlpMesa.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.tlpMesa.Font = new System.Drawing.Font("Microsoft YaHei", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.tlpMesa.Location = new System.Drawing.Point(0, 0);
-            this.tlpMesa.Name = "tlpMesa";
-            this.tlpMesa.RowCount = 5;
-            this.tlpMesa.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 15.82734F));
-            this.tlpMesa.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 9.11271F));
-            this.tlpMesa.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 10.31175F));
-            this.tlpMesa.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 39.80816F));
-            this.tlpMesa.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 24.46043F));
-            this.tlpMesa.Size = new System.Drawing.Size(438, 417);
-            this.tlpMesa.TabIndex = 0;
+            this.tlpMesa2.ColumnCount = 2;
+            this.tlpMesa2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 52.73973F));
+            this.tlpMesa2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 47.26027F));
+            this.tlpMesa2.Controls.Add(this.lblMesa2, 0, 0);
+            this.tlpMesa2.Controls.Add(this.lblNumPersonas, 0, 1);
+            this.tlpMesa2.Controls.Add(this.cbxNumeroPersonasMesa1, 1, 1);
+            this.tlpMesa2.Controls.Add(this.label1, 0, 2);
+            this.tlpMesa2.Controls.Add(this.txtEstadoMesa1, 1, 2);
+            this.tlpMesa2.Controls.Add(this.btnOrdenarMesa1, 1, 4);
+            this.tlpMesa2.Controls.Add(this.lbxPedidosMesa1, 0, 3);
+            this.tlpMesa2.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.tlpMesa2.Font = new System.Drawing.Font("Microsoft YaHei", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.tlpMesa2.Location = new System.Drawing.Point(0, 0);
+            this.tlpMesa2.Name = "tlpMesa2";
+            this.tlpMesa2.RowCount = 5;
+            this.tlpMesa2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 15.82734F));
+            this.tlpMesa2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 9.11271F));
+            this.tlpMesa2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 10.31175F));
+            this.tlpMesa2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 39.80816F));
+            this.tlpMesa2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 24.46043F));
+            this.tlpMesa2.Size = new System.Drawing.Size(438, 417);
+            this.tlpMesa2.TabIndex = 0;
             // 
-            // lblNoClientes
+            // lblMesa2
             // 
-            this.lblNoClientes.AutoSize = true;
-            this.tlpMesa.SetColumnSpan(this.lblNoClientes, 2);
-            this.lblNoClientes.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.lblNoClientes.Font = new System.Drawing.Font("Microsoft YaHei UI", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblNoClientes.Location = new System.Drawing.Point(3, 0);
-            this.lblNoClientes.Name = "lblNoClientes";
-            this.lblNoClientes.Size = new System.Drawing.Size(432, 66);
-            this.lblNoClientes.TabIndex = 0;
-            this.lblNoClientes.Text = "Informacion de la Mesa";
+            this.lblMesa2.AutoSize = true;
+            this.tlpMesa2.SetColumnSpan(this.lblMesa2, 2);
+            this.lblMesa2.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.lblMesa2.Font = new System.Drawing.Font("Microsoft YaHei UI", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblMesa2.Location = new System.Drawing.Point(3, 0);
+            this.lblMesa2.Name = "lblMesa2";
+            this.lblMesa2.Size = new System.Drawing.Size(432, 66);
+            this.lblMesa2.TabIndex = 0;
+            this.lblMesa2.Text = "Informacion de la Mesa 1";
             // 
             // lblNumPersonas
             // 
@@ -87,19 +87,19 @@
             this.lblNumPersonas.TabIndex = 1;
             this.lblNumPersonas.Text = "Numero de personas";
             // 
-            // comboBox1
+            // cbxNumeroPersonasMesa1
             // 
-            this.comboBox1.Font = new System.Drawing.Font("Microsoft YaHei", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Items.AddRange(new object[] {
+            this.cbxNumeroPersonasMesa1.Font = new System.Drawing.Font("Microsoft YaHei", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cbxNumeroPersonasMesa1.FormattingEnabled = true;
+            this.cbxNumeroPersonasMesa1.Items.AddRange(new object[] {
             "1",
             "2",
             "3",
             "4"});
-            this.comboBox1.Location = new System.Drawing.Point(234, 69);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(178, 29);
-            this.comboBox1.TabIndex = 2;
+            this.cbxNumeroPersonasMesa1.Location = new System.Drawing.Point(234, 69);
+            this.cbxNumeroPersonasMesa1.Name = "cbxNumeroPersonasMesa1";
+            this.cbxNumeroPersonasMesa1.Size = new System.Drawing.Size(178, 29);
+            this.cbxNumeroPersonasMesa1.TabIndex = 2;
             // 
             // label1
             // 
@@ -112,65 +112,65 @@
             this.label1.TabIndex = 3;
             this.label1.Text = "Estado Mesa";
             // 
-            // txtEstadoMesa
+            // txtEstadoMesa1
             // 
-            this.txtEstadoMesa.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.txtEstadoMesa.Font = new System.Drawing.Font("Microsoft YaHei", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtEstadoMesa.Location = new System.Drawing.Point(234, 107);
-            this.txtEstadoMesa.Name = "txtEstadoMesa";
-            this.txtEstadoMesa.ReadOnly = true;
-            this.txtEstadoMesa.Size = new System.Drawing.Size(201, 33);
-            this.txtEstadoMesa.TabIndex = 4;
+            this.txtEstadoMesa1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.txtEstadoMesa1.Font = new System.Drawing.Font("Microsoft YaHei", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtEstadoMesa1.Location = new System.Drawing.Point(234, 107);
+            this.txtEstadoMesa1.Name = "txtEstadoMesa1";
+            this.txtEstadoMesa1.ReadOnly = true;
+            this.txtEstadoMesa1.Size = new System.Drawing.Size(201, 33);
+            this.txtEstadoMesa1.TabIndex = 4;
             // 
-            // btnOrdenar
+            // btnOrdenarMesa1
             // 
-            this.btnOrdenar.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.btnOrdenar.Font = new System.Drawing.Font("Microsoft YaHei", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnOrdenar.Location = new System.Drawing.Point(234, 316);
-            this.btnOrdenar.Name = "btnOrdenar";
-            this.btnOrdenar.Size = new System.Drawing.Size(201, 98);
-            this.btnOrdenar.TabIndex = 5;
-            this.btnOrdenar.Text = "Nueva Orden";
-            this.btnOrdenar.UseVisualStyleBackColor = true;
+            this.btnOrdenarMesa1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.btnOrdenarMesa1.Font = new System.Drawing.Font("Microsoft YaHei", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnOrdenarMesa1.Location = new System.Drawing.Point(234, 316);
+            this.btnOrdenarMesa1.Name = "btnOrdenarMesa1";
+            this.btnOrdenarMesa1.Size = new System.Drawing.Size(201, 98);
+            this.btnOrdenarMesa1.TabIndex = 5;
+            this.btnOrdenarMesa1.Text = "Nueva Orden";
+            this.btnOrdenarMesa1.UseVisualStyleBackColor = true;
             // 
-            // listBox1
+            // lbxPedidosMesa1
             // 
-            this.tlpMesa.SetColumnSpan(this.listBox1, 2);
-            this.listBox1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.listBox1.Font = new System.Drawing.Font("Microsoft YaHei", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.listBox1.FormattingEnabled = true;
-            this.listBox1.ItemHeight = 25;
-            this.listBox1.Location = new System.Drawing.Point(3, 150);
-            this.listBox1.Name = "listBox1";
-            this.listBox1.Size = new System.Drawing.Size(432, 160);
-            this.listBox1.TabIndex = 6;
+            this.tlpMesa2.SetColumnSpan(this.lbxPedidosMesa1, 2);
+            this.lbxPedidosMesa1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.lbxPedidosMesa1.Font = new System.Drawing.Font("Microsoft YaHei", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbxPedidosMesa1.FormattingEnabled = true;
+            this.lbxPedidosMesa1.ItemHeight = 25;
+            this.lbxPedidosMesa1.Location = new System.Drawing.Point(3, 150);
+            this.lbxPedidosMesa1.Name = "lbxPedidosMesa1";
+            this.lbxPedidosMesa1.Size = new System.Drawing.Size(432, 160);
+            this.lbxPedidosMesa1.TabIndex = 6;
             // 
-            // frmOrdenes
+            // frmMesa1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(438, 417);
-            this.Controls.Add(this.tlpMesa);
+            this.Controls.Add(this.tlpMesa2);
             this.MaximizeBox = false;
-            this.Name = "frmOrdenes";
+            this.Name = "frmMesa1";
             this.Text = "Mesa";
-            this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.frmOrdenes_FormClosed);
+            
             this.Load += new System.EventHandler(this.frmOrdenes_Load);
-            this.tlpMesa.ResumeLayout(false);
-            this.tlpMesa.PerformLayout();
+            this.tlpMesa2.ResumeLayout(false);
+            this.tlpMesa2.PerformLayout();
             this.ResumeLayout(false);
 
         }
 
         #endregion
 
-        private System.Windows.Forms.TableLayoutPanel tlpMesa;
-        private System.Windows.Forms.Label lblNoClientes;
+        private System.Windows.Forms.TableLayoutPanel tlpMesa2;
+        private System.Windows.Forms.Label lblMesa2;
         private System.Windows.Forms.Label lblNumPersonas;
-        private System.Windows.Forms.ComboBox comboBox1;
+        private System.Windows.Forms.ComboBox cbxNumeroPersonasMesa1;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.TextBox txtEstadoMesa;
-        private System.Windows.Forms.Button btnOrdenar;
-        private System.Windows.Forms.ListBox listBox1;
+        private System.Windows.Forms.TextBox txtEstadoMesa1;
+        private System.Windows.Forms.Button btnOrdenarMesa1;
+        private System.Windows.Forms.ListBox lbxPedidosMesa1;
     }
 }

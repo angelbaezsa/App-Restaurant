@@ -12,9 +12,9 @@ namespace Restaurant
 {
    
 
-    public partial class frmMesa1 : Form
+    public partial class frmMesa2 : Form
     {
-        public frmMesa1()
+        public frmMesa2()
         {
             InitializeComponent();
         }
@@ -29,7 +29,12 @@ namespace Restaurant
 
         }
 
-        
+        private void frmOrdenes_FormClosed(object sender, FormClosedEventArgs e)
+        {
+            btnOrdenar2.Enabled = true;
+            this.Close();
+            
+        }
 
         
 

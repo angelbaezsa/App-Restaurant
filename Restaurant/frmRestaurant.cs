@@ -23,39 +23,39 @@ namespace Restaurant
 
 
 
-        private void InfoMesa(string Estado)
-        {
-            frmOrdenes mesasForm = new frmOrdenes();
-            
-            mesasForm.Show();
-        }
-
+        
         private void MesaUno()
         {
-            InfoMesa("Disponible");
+
+            frmMesa1 miMesa = new frmMesa1(); 
+            miMesa.Show();
             btnMesa1.Enabled = false;
         }
+        
         private void MesaDos()
         {
-            InfoMesa("Disponible");
+            frmMesa2 miMesa = new frmMesa2();
+            miMesa.Show();
             btnMesa2.Enabled = false;
         }
 
         private void MesaTres()
         {
-            InfoMesa("Disponible");
+            frmMesa3 miMesa3 = new frmMesa3();
+            miMesa3.Show();
             btnMesa3.Enabled = false;
         }
 
         private void MesaCuatro()
         {
-            InfoMesa("Disponible");
+            frmMesa4 miMesa = new frmMesa4();
+            miMesa.Show();
             btnMesa4.Enabled = false;
         }
 
         private void btnMesa1_Click(object sender, EventArgs e)
         {
-           
+            MesaUno();
            
                     
         }
@@ -63,21 +63,16 @@ namespace Restaurant
         {
             MesaDos();
         }
-        private void btnMesa3_Click(object sender, EventArgs e)
-        {
-
-            InfoMesa("disponible");
-            btnMesa3.Enabled = false;
-
-        }
-        private void btnMesa4_Click(object sender, EventArgs e)
-        {
-            InfoMesa("disponible");
-            btnMesa4.Enabled = false;
-
-        }
-
        
-        
+       
+        private void btnMesa3_Click_1(object sender, EventArgs e)
+        {
+            MesaTres();
+        }
+
+        private void btnMesa4_Click_1(object sender, EventArgs e)
+        {
+            MesaCuatro();
+        }
     }
 }
